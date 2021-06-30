@@ -184,7 +184,7 @@ class PromPushThread(weewx.restx.RESTThread):
                             dates[id] = date
                 else:
                     if key != 'type':
-                        loginfo("missing field [%s] in defs" % (key))
+                        logdbg("missing field [%s] in defs" % (key))
 
             for key, value in dates.items():
                 val = str(value)
