@@ -10,7 +10,7 @@ weather_metrics = {
     'outSnr': {'name': 'snr', 'id': 'Weather Station', 'type': 'gauge'},
     'outRssi': {'name': 'rssi', 'id': 'Weather Station', 'type': 'gauge'},
     'outNoise': {'name': 'noise', 'id': 'Weather Station', 'type': 'gauge'},
-    'pressure': {'name': 'pressure_hg', 'id': 'Weather Station', 'type': 'gauge'},
+    'pressure': {'name': 'pressure_hg_inch', 'id': 'Weather Station', 'type': 'gauge'},
     'pm1_0': {'name': 'air_quality_1_0_ppm', 'id': 'Weather Station', 'type': 'gauge'},
     'pm2_5': {'name': 'air_quality_2_5_ppm', 'id': 'Weather Station', 'type': 'gauge'},
     'pm10_0': {'name': 'air_quality_10_0_ppm', 'id': 'Weather Station', 'type': 'gauge'},
