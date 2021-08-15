@@ -169,7 +169,7 @@ class PromPushThread(weewx.restx.RESTThread):
             dates = {}
             for key, val in record.items():
                 if val is None:
-                    val = 0.0
+                    continue
 
                 if weather_metrics.get(key):
                     weather_metric = weather_metrics[key]
